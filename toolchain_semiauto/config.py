@@ -1,0 +1,9 @@
+photoBaseDir = 'data'
+data_dir="data"
+marker_filename="latest_set.txt"
+comparasum_dir="comparasum"
+comparasum_tracker="latest_sum.txt"
+base = 4
+_k=2
+exposures = [base*_k**i for i in range(20)]
+flag_file="flag-DO-NOT-REMOVE.txt"
